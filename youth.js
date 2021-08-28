@@ -21,8 +21,8 @@ let cardTime = $.getdata('zqtime') || "05"; //打卡时间
 let readtimes = 0;
 
 // 需获取部分
-let withdrawUrl = $.getdata('cashurl_zq'); //提现地址，可选
-let withdrawBody = $.getdata('cashbody_zq'); //提现请求，可选
+let withdrawUrl = "https://ios.baertt.com/v5/wechat/withdraw2.json"; //提现地址，可选
+let withdrawBody = let withdrawBody = 'p=9NwGV8Ov71o=gW5NEpb6rjb84bkaCQyOq-myT0C-Ktb_pYgxM135XoUfaIpfBqAxRGnFAl1k71C_zMPfUdFlHJTcuxYW9LgBCdTzuda7fnA8r2K-D8AqSYWzt-6LIEcC8SPkaeAgjjv1iCeYI_yckjGbVxJEy1xSQc4qp-_g8cJecymP34l6mTfuAVCB9aSCzKIEz1ORm1WCW5DNqDuqOVG3w1aY6X_5kj_F2UZDpTGpliUKG_2R6gTEL3idAHL-HRF4Dm5uU11Z_Bz5a4QaVzuMlXjQoS01TM3TYUFu7sfsDWU5R4_3R3KGA2Q25m7NCJI-0Njge6sIXIARB6OkDQz1hqgdlUwIshneIX2D_P1sqYDoa-IkIEe0mi8ym4K3BAFtt8OF0UE9tbs3hrR7_kcnvc441e7Dhbrt1N_7RFFgHHOKOEsy8r-_4SGPiuLlde4-lhwZ77Rr_UgFh5X4s4z0Skt0G0LLz8nEZIyxodjDXTKbyCHC6nqgub-k9bmBk21_E-7xZEm33L4A1vmM_2qo_zuoY3QvudAgGnzatujRuwuyhf2xOa2B7pjNeTxNGExuKqcFw1RUsdTXL8nGaZ6Du_bobiZUxCLBUfvrC8gqoSoT_u_0RvflmUowvAgBH95mtFaeNSHicyLSdGbisppZFq1cHl3DJwnC0FGDxnxULR04w_A8ZZZhSU4MbKLdE2y2GEwzp1nAAa0NNhfl3AEaPOx0WxfXyDlD6EXJFYcAmF0z8OZk56PUMGsdX0c4Gi7BSc98_nXoTNmPx39HFpncIoAaHGJyoJneQ_8-pXerb-OVKoqlXGlb_Q9dm3LMlfF4PmFYtd3_eniIsqRChk8='; //提现请求，可选
 let cookieYouth = $.getdata('youthheader_zq');
 let artBody = $.getdata('read_zq');
 let readTimes = $.getdata('readtime_zq');
