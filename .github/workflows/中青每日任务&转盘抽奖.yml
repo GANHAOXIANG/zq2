@@ -1,4 +1,4 @@
-name: 中青每日任务&转盘抽奖
+name: 中青每日任务&转盘抽奖1
 
 on:
   workflow_dispatch:
